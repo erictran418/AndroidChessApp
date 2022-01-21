@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lbtScroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadeScrollbars="false"
+    android:fillViewport="true"
+    android:scrollbarSize="8dp"
+    android:scrollbars="vertical">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/Newestbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Newest"
+            android:text="@string/Newest" />
+        <Button xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/Oldestbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Oldest"
+            android:text="@string/Oldest" />
+
+        <TextView
+            android:layout_height="25dp"
+            android:text="Game End Dates Sorted by Newest or Oldest"
+            android:textAlignment="center">
+
+        </TextView>
+        <ListView
+            android:id="@+id/lbdList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </TableLayout>
+</ScrollView>

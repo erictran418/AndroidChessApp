@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AndroidProject73</string>
+    <string name="draw_offer">Offer Draw</string>
+    <string name="resign">Resign</string>
+    <string name="ai">AI (Pick An Automated Move For Current Player)</string>
+    <string name="undo_last">Undo Last Move</string>
+    <string name="list_all_date">List All Recorded Games Sorted By Date</string>
+    <string name="list_all_title">List All Recorded Games Sorted By Title</string>
+    <string name="acceptdraw">Accept Draw</string>
+    <string name="rejectdraw">Reject Draw</string>
+    <string name="Newest">Newest</string>
+    <string name="Oldest">Oldest</string>
+    <string name="AtoZ">A to Z</string>
+    <string name="ZtoA">Z to A</string>
+    <string name="Cycle">Cycle</string>
+
+
+
+</resources>
